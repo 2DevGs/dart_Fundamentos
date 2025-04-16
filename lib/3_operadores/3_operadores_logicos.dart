@@ -5,7 +5,7 @@ void main(){
   // ! (NÂO)
 
   final sexo = 'M';
-  final nome = 'Gustavo';
+  final nome = 'Gustaf';
   final idade = 18;
 
 //  if(sexo == 'M'){
@@ -78,7 +78,7 @@ if (sexo == 'F' || idade < 18) {
     print('Não pode entrar!!!!!');
   }
 
-  if(!(nome == 'Gustavo')){
+  if(!(nome == 'Gustaf')){
 
 
   }

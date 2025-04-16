@@ -2,13 +2,13 @@
 String? nome;
 
 void main (){
- var nomeCompleto = nome != null ? nome! + 'Dias' : 'G C D S' ; //Não fazer assim!!!!!!!!!!!!!
+ var nomeCompleto = nome != null ? nome! + 'Ribert' : 'Gustaf Nolan' ; //Não fazer assim!!!!!!!!!!!!!
 
  String nomeCompleto2;
   if(nome != null) {
-   nomeCompleto2 = nome! + 'Dias';
+   nomeCompleto2 = nome! + 'Ribert';
   } else {
-   nomeCompleto2 = 'G C D S';
+   nomeCompleto2 = 'Gustaf Nolan';
   }
 
 
@@ -18,7 +18,7 @@ var nomeLocal = nome;
   nomeLocal = 'Gustavo';
  }
 
-var nomeCompleto3 = nomeLocal + 'Dias';
+var nomeCompleto3 = nomeLocal + 'Ribert';
 
 print(nomeCompleto2);
 print(nomeCompleto3);

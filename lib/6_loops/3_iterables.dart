@@ -34,9 +34,9 @@ void main(){
   print(numerosRemoverAte5);
 
 
-  var nomes = ['Gustavo','Canhizares','Dias','Serrano'];
+  var nomes = ['Gustaf','Nolan','Magayver','Stitch'];
   var nomesSkip = nomes.skipWhile((nome){
-    if(nome != 'Canhizares'){
+    if(nome != 'Magayver'){
       return true;
     }else{
       return false;

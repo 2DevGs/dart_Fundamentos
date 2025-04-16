@@ -3,7 +3,7 @@
 void main(){
 
 var numero = List.generate(10, (index) => index);
-var nomes = ['Gustavo','Gustavo2.0','Gustavo3.0'];
+var nomes = ['Gustaf','Gustaf2.0','Gustaf3.0'];
 
 print('Imprimindo numeros com for convencional');
 for(var i = 0; i < numero.length; i++) {
@@ -32,7 +32,7 @@ for(var nome in nomes ){
 print('Imprimindo nomes com FOR convencional e break');
 for(var i = 0; i < nomes.length; i++) {
   print(nomes[i]);
-  if(nomes[i] == 'Gustavo2.0'){
+  if(nomes[i] == 'Gustaf2.0'){
     break;
   }
 }
@@ -40,7 +40,7 @@ for(var i = 0; i < nomes.length; i++) {
   print('Imprimindo nome com FOR-IN e break');
 for(var nome in nomes) {
   print(nome);
-  if(nome == 'Gustavo2.0'){
+  if(nome == 'Gustaf2.0'){
     break;
   }
 }

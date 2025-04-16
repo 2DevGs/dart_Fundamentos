@@ -31,8 +31,8 @@ void main(){
 
   // Interpolação;
 
-  var primeiroNome = 'Gustavo';
-  var ultimoNome = 'Dias';
+  var primeiroNome = 'Gustaf';
+  var ultimoNome = 'Nolan';
 
 //  var saudacao = 'Olá '+ primeiroNome + ' ' + ultimoNome + ' seja muito bem vindo';
 //  print(saudacao);
@@ -49,13 +49,13 @@ void main(){
 
 
 //Não é a mellhor forma de fazer isso...
-//  var paciente = 'Gustavo Dias|24|Especialista Bombas e Guerra|SP';
+//  var paciente = 'Gustaf Nolan|24|Especialista Bombas e Guerra|SP';
 //  var nomePaciente = paciente.substring(0, 12);
 //  var idadePaciente = paciente.substring(13, 15);
 //    print(nomePaciente);
 //    print(idadePaciente);
 
-  var paciente = 'Gustavo Dias|24|Especialista Bombas e Guerra|SP';
+  var paciente = 'Gustaf Nolan|24|Especialista Bombas e Guerra|SP';
 
 //  var dadosPaciente = paciente.split('|');
 //  print(dadosPaciente);
@@ -70,10 +70,10 @@ void main(){
 //  dadosPaciente.forEach((dado) => print(dado));
 
   var pacientes = [
-    'Gustavo Dias|24|Especialista Bombas e Guerra|SP',
-    'Manicure Serrano Pinto|22|Especialista Nada|BR',
-    'Eloisa Canhizares|22|Especialista Nada|BR',
-    'Eduardo Moreira|22|Especialista Nada|BR',
+    'Gustaf Nolan|24|Especialista Bombas e Guerra|SP',
+    'Janaina Stiff Santos|22|Especialista Nada|BR',
+    'Frieren Nantes|22|Especialista Nada|BR',
+    'Edmond Colin|22|Especialista Nada|BR',
   ];
   for(paciente in pacientes) {
     var dadosPaciente = paciente.split('|');

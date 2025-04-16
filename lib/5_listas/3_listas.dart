@@ -19,7 +19,7 @@ print(nomes);
 print(nomes[0]);
 
 
-nomes.addAll(['Gustavo2.0', 'Turbana3.4']);
+nomes.addAll(['Gustaf2.0', 'Turbana3.4']);
 print(nomes);
 
 
@@ -30,7 +30,7 @@ print(nomes);
 // print(nomes);
 nomes.removeWhere((nome) {
   print('Nome procurado $nome');
-  if(nome == 'Gustavo') {
+  if(nome == 'Gustaf') {
     return true;
   } else {
     return false;
@@ -71,7 +71,7 @@ print(numerosGerados);
 final stringGerados = List.generate(10, (index) => 'Indice ${index + 1}');
 print(stringGerados);
 
-final repeticoes = List.filled(10, 'Gustavo');
+final repeticoes = List.filled(10, 'Gustaf');
 print(repeticoes);
 
 

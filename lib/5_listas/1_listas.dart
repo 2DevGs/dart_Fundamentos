@@ -12,9 +12,9 @@ void main(){
 
 
 
-  List<String> listNomes = ['Gustavo', 'C', 'D', 'S'];
+  List<String> listNomes = ['Gustaf', 'C', 'D', 'S'];
 
-  var listNomes2 = ['Gustavo', 'C', 'D', 'S'];
+  var listNomes2 = ['Gustaf', 'C', 'D', 'S'];
 
  List<String> listSemDadosNomes = [];
 

@@ -34,10 +34,7 @@ void main(){
   dynamic dynamicQualquer;
   dynamicQualquer = 1.2;
   dynamicQualquer = 1;
-  dynamicQualquer = 'Gustavo';
+  dynamicQualquer = 'Gustaf';
 
 
-/// teste
-/// git
-/// 
 }

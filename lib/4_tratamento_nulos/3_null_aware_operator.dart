@@ -3,10 +3,10 @@ String? nome;
 
 void main (){
 
-  var sobrenome = 'Dias';
+  var sobrenome = 'Ribert';
 //  var nomeCompleto = ((nome != null) ? nome! + 'Dias' : 'G C D S');
-  var nomeCompleto = (nome ?? 'Gustavo') + sobrenome;
+  var nomeCompleto = (nome ?? 'Jonas') + sobrenome;
   String? nomeCompleto2;
 
-  print(nomeCompleto2 ?? 'Gustavo Dias');
+  print(nomeCompleto2 ?? 'Jonas');
 }

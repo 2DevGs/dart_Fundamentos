@@ -20,7 +20,7 @@ void main(){
   print(valorDouble.roundToDouble());
 
   final valorCertoString = '20';
-  final valorErradoString = 'Gustavo';
+  final valorErradoString = 'Teste';
 
   final valorInt = int.parse(valorCertoString);
   final valorInt2 = int.tryParse(valorErradoString);
